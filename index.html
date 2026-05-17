@@ -1,0 +1,330 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Dinossauro Rei</title>
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Fonte -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- BACKGROUND GLOW -->
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+
+  <!-- HEADER -->
+  <header class="header">
+
+    <div class="container-custom">
+
+      <div class="flex items-center justify-between">
+
+        <h1 class="logo">
+          DINOSSAURO REI
+        </h1>
+
+        <nav class="hidden md:flex gap-8">
+          <a href="#hero">Início</a>
+          <a href="#dinosaurs">Dinossauros</a>
+          <a href="#teams">Equipes</a>
+          <a href="#timeline">História</a>
+        </nav>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <!-- HERO -->
+  <section id="hero" class="hero-section">
+
+    <div class="container-custom hero-grid">
+
+      <!-- TEXTO -->
+      <div>
+
+        <span class="tag">
+          A LENDA DESPERTOU
+        </span>
+
+        <h2 class="hero-title">
+          Torne-se o verdadeiro
+          <span>Rei dos Dinossauros</span>
+        </h2>
+
+        <p class="hero-description">
+          Entre em batalhas épicas, descubra dinossauros lendários
+          e domine os poderes elementais.
+        </p>
+
+        <div class="hero-buttons">
+          <button class="btn-primary">
+            EXPLORAR
+          </button>
+
+          <button class="btn-secondary">
+            VER TRAILER
+          </button>
+        </div>
+
+      </div>
+
+      <!-- IMAGEM -->
+      <div class="hero-image-wrapper">
+
+        <img
+          src="https://i.imgur.com/9KQZ4sS.png"
+          alt="Dinossauro"
+          class="hero-image floating"
+        >
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ELEMENTOS -->
+  <section class="section-padding">
+
+    <div class="container-custom">
+
+      <div class="section-header">
+        <span class="section-tag">ELEMENTOS</span>
+
+        <h2 class="section-title">
+          Escolha seu poder
+        </h2>
+      </div>
+
+      <div class="elements-grid">
+
+        <div class="element-card fire">
+          🔥
+          <span>Fogo</span>
+        </div>
+
+        <div class="element-card water">
+          💧
+          <span>Água</span>
+        </div>
+
+        <div class="element-card thunder">
+          ⚡
+          <span>Trovão</span>
+        </div>
+
+        <div class="element-card wind">
+          🌪
+          <span>Vento</span>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- DINOSSAUROS -->
+  <section id="dinosaurs" class="section-padding">
+
+    <div class="container-custom">
+
+      <div class="section-header">
+        <span class="section-tag">DINOSSAUROS</span>
+
+        <h2 class="section-title">
+          Guerreiros lendários
+        </h2>
+      </div>
+
+      <div class="cards-grid">
+
+        <!-- CARD -->
+        <div class="dino-card">
+
+          <div class="card-glow"></div>
+
+          <img
+            src="https://i.imgur.com/9KQZ4sS.png"
+            alt=""
+            class="dino-image"
+          >
+
+          <h3>Terry</h3>
+
+          <p>Elemento: Fogo</p>
+
+        </div>
+
+        <!-- CARD -->
+        <div class="dino-card">
+
+          <div class="card-glow"></div>
+
+          <img
+            src="https://i.imgur.com/YlK7M8V.png"
+            alt=""
+            class="dino-image"
+          >
+
+          <h3>Chomp</h3>
+
+          <p>Elemento: Terra</p>
+
+        </div>
+
+        <!-- CARD -->
+        <div class="dino-card">
+
+          <div class="card-glow"></div>
+
+          <img
+            src="https://i.imgur.com/qN8W6hX.png"
+            alt=""
+            class="dino-image"
+          >
+
+          <h3>Spiny</h3>
+
+          <p>Elemento: Água</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- TIMES -->
+  <section id="teams" class="section-padding">
+
+    <div class="container-custom">
+
+      <div class="vs-wrapper">
+
+        <!-- TIME D -->
+        <div class="team-card blue-side">
+
+          <h3>TIME D</h3>
+
+          <p>
+            Max, Rex e Zoe lutam para proteger os dinossauros.
+          </p>
+
+        </div>
+
+        <!-- VS -->
+        <div class="vs-text">
+          VS
+        </div>
+
+        <!-- GANGUE ALFA -->
+        <div class="team-card red-side">
+
+          <h3>GANGUE ALFA</h3>
+
+          <p>
+            Dr. Z e sua equipe buscam dominar os poderes ancestrais.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- TIMELINE -->
+  <section id="timeline" class="section-padding">
+
+    <div class="container-custom">
+
+      <div class="section-header">
+
+        <span class="section-tag">
+          HISTÓRIA
+        </span>
+
+        <h2 class="section-title">
+          A jornada começou
+        </h2>
+
+      </div>
+
+      <div class="timeline">
+
+        <div class="timeline-item">
+          ☄ Meteoro caiu na Terra
+        </div>
+
+        <div class="timeline-item">
+          🦖 Dinossauros despertaram
+        </div>
+
+        <div class="timeline-item">
+          ⚔ Time D surgiu
+        </div>
+
+        <div class="timeline-item">
+          👑 A batalha pelo poder começou
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+
+    <div class="container-custom center">
+
+      <h2 class="cta-title">
+        Você está pronto para a batalha?
+      </h2>
+
+      <button class="btn-primary">
+        ENTRAR NO PORTAL
+      </button>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+
+    <div class="container-custom">
+
+      <p>
+        Dinossauro Rei © Landing Page Conceitual
+      </p>
+
+    </div>
+
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
